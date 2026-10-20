@@ -1,0 +1,2 @@
+# Load Zephyr board Kconfig descriptions.
+osource "C:/ncs/v3.4.0/zephyr/boards/others/promicro_nrf52840/Kconfig"

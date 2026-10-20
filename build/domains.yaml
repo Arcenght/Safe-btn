@@ -1,0 +1,7 @@
+default: safebtn
+build_dir: C:/Users/basic/Videos/safebtn/build
+domains:
+  - name: safebtn
+    build_dir: C:/Users/basic/Videos/safebtn/build/safebtn
+flash_order:
+  - safebtn

@@ -1,0 +1,19 @@
+{
+  "toolchainPath": "c:\\ncs\\toolchains\\dcbdc366a1",
+  "sdkPath": "c:\\ncs\\v3.4.0",
+  "board": "promicro_nrf52840/nrf52840/uf2",
+  "boardDir": "c:\\ncs\\v3.4.0\\zephyr\\boards\\others\\promicro_nrf52840",
+  "boardDirs": [
+    "c:\\ncs\\v3.4.0\\zephyr\\boards\\others\\promicro_nrf52840"
+  ],
+  "optimizations": "default",
+  "cmakeArgs": [],
+  "confFiles": [],
+  "buildDirectory": "build",
+  "kconfigFragments": [],
+  "snippets": [
+    "cdc-acm-console"
+  ],
+  "dtcOverlays": [],
+  "extraDtcOverlays": []
+}

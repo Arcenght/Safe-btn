@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/CMakeFiles/safebtn"
+		},
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/CMakeFiles/safebtn.rule"
+		},
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/CMakeFiles/safebtn-complete.rule"
+		},
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-build.rule"
+		},
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-configure.rule"
+		},
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-download.rule"
+		},
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-install.rule"
+		},
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-patch.rule"
+		},
+		{
+			"file" : "C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"safebtn"
+		],
+		"name" : "safebtn"
+	}
+}

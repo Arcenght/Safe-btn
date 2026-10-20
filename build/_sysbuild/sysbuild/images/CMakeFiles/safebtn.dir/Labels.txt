@@ -1,0 +1,13 @@
+# Target labels
+ safebtn
+# Source files and their labels
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/CMakeFiles/safebtn
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/CMakeFiles/safebtn.rule
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/CMakeFiles/safebtn-complete.rule
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-build.rule
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-configure.rule
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-download.rule
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-install.rule
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-mkdir.rule
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-patch.rule
+C:/Users/basic/Videos/safebtn/build/_sysbuild/sysbuild/images/safebtn-prefix/src/safebtn-stamp/safebtn-update.rule

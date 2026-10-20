@@ -1,0 +1,63 @@
+cmake:
+  application:
+    configuration-dir: 'C:/Users/basic/Videos/safebtn'
+    source-dir: 'C:/Users/basic/Videos/safebtn'
+  board:
+    name: 'promicro_nrf52840'
+    path:
+     - 'C:/ncs/v3.4.0/zephyr/boards/others/promicro_nrf52840'
+    qualifiers: 'nrf52840/uf2'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'C:/ncs/v3.4.0/nrf/dts/bindings'
+     - 'C:/ncs/v3.4.0/zephyr/dts/bindings'
+    extra-user-files:
+     - 'C:/ncs/v3.4.0/zephyr/snippets/cdc-acm-console/cdc-acm-console.overlay'
+    files:
+     - 'C:/ncs/v3.4.0/zephyr/boards/others/promicro_nrf52840/promicro_nrf52840_nrf52840_uf2.dts'
+     - 'C:/Users/basic/Videos/safebtn/app.overlay'
+     - 'C:/ncs/v3.4.0/zephyr/snippets/cdc-acm-console/cdc-acm-console.overlay'
+    include-dirs:
+     - 'C:/ncs/v3.4.0/nrf/include'
+     - 'C:/ncs/v3.4.0/nrf/dts/common'
+     - 'C:/ncs/v3.4.0/nrf/dts/riscv'
+     - 'C:/ncs/v3.4.0/nrf/dts/arm'
+     - 'C:/ncs/v3.4.0/nrf/dts'
+     - 'C:/ncs/v3.4.0/zephyr/include'
+     - 'C:/ncs/v3.4.0/zephyr/include/zephyr'
+     - 'C:/ncs/v3.4.0/zephyr/dts/common'
+     - 'C:/ncs/v3.4.0/zephyr/dts/vendor'
+     - 'C:/ncs/v3.4.0/zephyr/dts/rx'
+     - 'C:/ncs/v3.4.0/zephyr/dts/x86'
+     - 'C:/ncs/v3.4.0/zephyr/dts/xtensa'
+     - 'C:/ncs/v3.4.0/zephyr/dts/sparc'
+     - 'C:/ncs/v3.4.0/zephyr/dts/riscv'
+     - 'C:/ncs/v3.4.0/zephyr/dts/posix'
+     - 'C:/ncs/v3.4.0/zephyr/dts/arm64'
+     - 'C:/ncs/v3.4.0/zephyr/dts/arm'
+     - 'C:/ncs/v3.4.0/zephyr/dts/arc'
+     - 'C:/ncs/v3.4.0/zephyr/dts'
+    user-files:
+     - 'C:/Users/basic/Videos/safebtn/app.overlay'
+  kconfig:
+    extra-user-files:
+     - 'C:/ncs/v3.4.0/zephyr/snippets/cdc-acm-console/cdc-acm-console.conf'
+    files:
+     - 'C:/ncs/v3.4.0/zephyr/boards/others/promicro_nrf52840/promicro_nrf52840_nrf52840_uf2_defconfig'
+     - 'C:/Users/basic/Videos/safebtn/prj.conf'
+     - 'C:/ncs/v3.4.0/zephyr/snippets/cdc-acm-console/cdc-acm-console.conf'
+     - 'C:/Users/basic/Videos/safebtn/build/safebtn/zephyr/misc/generated/extra_kconfig_options.conf'
+     - 'C:/Users/basic/Videos/safebtn/build/safebtn/zephyr/.config.sysbuild'
+    user-files:
+     - 'C:/Users/basic/Videos/safebtn/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'C:/ncs/toolchains/dcbdc366a1/opt/zephyr-sdk'
+  vendor-specific:
+    nordic:
+      svdfile: 'C:/ncs/v3.4.0/modules/hal/nordic/nrfx/bsp/stable/mdk/nrf52840.svd'
+  zephyr:
+    version: '4.4.0'
+    zephyr-base: 'C:/ncs/v3.4.0/zephyr'
+version: '0.1.0'

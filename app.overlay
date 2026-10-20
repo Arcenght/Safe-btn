@@ -1,0 +1,21 @@
+/*
+ * Overlay generico (vale para qualquer placa): switch de teclado entre
+ * o pino P0.17 e GND. No Pro Micro nRF52840 / nice!nano ele e o pino "2"
+ * (lado do TX/RX). Pull-up interno; pressionado = nivel baixo.
+ *
+ * Se o seu clone tiver outra serigrafia, troque o numero abaixo
+ * (gpio0 17 = P0.17; para P1.06 use &gpio1 6).
+ */
+/ {
+	aliases {
+		sw0 = &safe_button;
+	};
+
+	safe_keys {
+		compatible = "gpio-keys";
+		safe_button: safe_button {
+			gpios = <&gpio0 17 (GPIO_PULL_UP | GPIO_ACTIVE_LOW)>;
+			label = "Safety button";
+		};
+	};
+};
