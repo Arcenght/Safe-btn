@@ -1,0 +1,15 @@
+{
+  "public_url": "http://localhost:8000",
+  "device_token": "TROQUE-ISTO-por-um-segredo-longo",
+  "owner_name": "Seu Nome",
+  "owner_topic": "safebtn-dono-TROQUE-x7k29qmw4p",
+  "ntfy_server": "https://ntfy.sh",
+  "ntfy_token": "",
+  "ack_timeout_s": 120,
+  "incident_window_s": 900,
+  "contacts": [
+    {"name": "Contato 1", "topic": "safebtn-c1-TROQUE-a8d3k2m9q1"},
+    {"name": "Contato 2", "topic": "safebtn-c2-TROQUE-p4w7z6n2b5"},
+    {"name": "Contato 3", "topic": "safebtn-c3-TROQUE-h1j9v3x8c7"}
+  ]
+}
